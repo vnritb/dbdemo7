@@ -33,7 +33,7 @@ Per poder treballar amb InteliJ, s'ha deseguir els següents passos:
     6. Viual Studio Key map
 2. Verificar que està instal·lat l'Android Studio (es pot fer servir JetBrains Toolbox)
 3. Comprova on s'ha instal·lat l'Android SDK (normalment a la carpeta de l'Android Studio)
-4. Configurar l'SDK d'Android a IntelliJ IDEA (Cercar Android Project Structurea Settings)
+4. Configurar l'SDK d'Android a IntelliJ IDEA (Cercar Android Project Structure Settings)
 5. Configurar l'atribut sdk.dir del local.properties amb el mateix Android SDK
 6. Si el projecte el demana, actualitzar l'AGP (Android Gradle Plugin)
 7. Configurar un dispositiu mòvil a running devices (per emular l'aplicació android)
@@ -43,11 +43,12 @@ Amb tot això, ja es pot reiniciar l'InteliJ, i anar a Gradle i fer 'download so
 
 Per executar la versió *web*, s'ha de fer servir el plugin de Gradle de la versió web, i executar la tasca de `:composeApp:wasmJsBrowserDevelopmentRun`
 A la versió *Android*, hauria d'aparèixer una fletxa verda que configurarà i executarà una run configuration d'Android
-A la de *desktop*, hauria d'aparèixer una fletxa verda que configurarà i executarà una run configurationde Gradle per laversió d'escriptori
+A la de *desktop*, hauria d'aparèixer una fletxa verda que configurarà i executarà una run configuratió de Gradle per la versió d'escriptori
 Es generarà aquesta configuració de Gradle: desktopRun -DmainClass=cat.itb.damv2.m78.dbdemo.MainKt --quiet
-Enrecordar-se de guardar laconfiguració del desktopRun, perquè no es guarda automàticament
-
+Enrecordar-se de guardar la configuració del desktopRun, perquè no es guarda automàticament
 
 També es poden configurar les run configurations manualment. 
 És recomanable tenir un clean, un build, i un assemble de Gradle.
+
+Es pot pujar el projecte a GitHub, des del mateix InteliJ, creant primer un projecte buit a GitHub
 
